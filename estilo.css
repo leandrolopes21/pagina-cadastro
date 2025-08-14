@@ -50,11 +50,12 @@ form {
     flex-wrap: nowrap;
 }
 
-.campo-nome, .campo-telefone {
+.campo-nome, .campo-telefone, .campo-email {
     margin-bottom: 25px;
 }
 
-.campo-nome input {
+.campo-nome input,
+.campo-email input {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
